@@ -16,3 +16,8 @@ $ sudo docker run -it --name ycsb csoyee/ycsb:1.0
 # ./bin/ycsb load rocksdb -s -P workloads/workloada -p rocksdb.dir=/data/
 ```
 
+## Automated Script
+
+```bash
+$ ./run_rocksdb [IMAGE TAG] [CONTAINER NAME] [DATA DIR]
+```
